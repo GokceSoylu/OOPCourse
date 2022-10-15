@@ -12,5 +12,13 @@ public class CreatingObje_test
 
         worker.display_info();
         worker.display_salalry();
+
+        CreatingObje worker2=worker;
+        worker2.display_info();
+        worker2.display_salalry();
+
+        worker.name="osman";
+        worker2.display_info();
+
     }
 }
