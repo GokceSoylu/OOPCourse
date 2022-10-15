@@ -1,2 +1,4 @@
 # OOP Course
-week 1
+
+week 2
+Creating Obje, input, loops, data types.

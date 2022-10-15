@@ -27,6 +27,6 @@ public class CreatingObje_test
         worker2.working_hours=in.nextInt();
         worker.display_info();
         worker.display_salalry();
-
+        in.close();
     }
 }
