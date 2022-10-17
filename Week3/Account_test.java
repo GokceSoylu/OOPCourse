@@ -48,3 +48,8 @@ public class Account_test
         return in.nextInt();
     }
 }
+//değişkenin private olmadığı durumda set get metodlaarı kullanmak komik olur. çünkü private değilse zaten değişkene ulaşabiliyoruz fonk'a gerek olmaz
+//peki normlade ulaşmadığımız varaible'a fonksiyon sayesinde ulaştık aslında dolaylı yoldan yine ulaşılabilir yaptık peki neden public yapmaktansa
+//boyle dolayladık?  çünkü bu sayede değişken değiştirilmeden metoda uğramasının sağlıyoruz. Metodlarda da control yapabiliyoruz mesala burada 
+//şifre soruduk belki girilen miktar negatif pozitif mi diye de kontrol edebilirdik vb. yani bu durm bize değişiklik yapmadan once kontrol
+//fırsatı veriyor.
