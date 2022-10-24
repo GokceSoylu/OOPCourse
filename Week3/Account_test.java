@@ -40,6 +40,7 @@ public class Account_test
             if(while_==false)
                 break;
         }
+        in.close();
     }    
     static int menu()
     {

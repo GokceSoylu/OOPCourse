@@ -22,6 +22,7 @@ public class Try_catch1
             //bu kısımın içinde biz getMesssage() fonksiyonunu kullanmasak hiç bize hata olduğunu soylemez direkt catch bloğunun içerisindeki
             //kodu çalıştırır kullanıcı hata aldığını fark etmez bile belki mesela Try_catch2.java dosyasına bakalım
         }
+        in.close();
         //! System.out.println(c); buarada c yi yazdırmıyor çünkü akıllı bu try in içinde belki hata var birdaha neden yazdırmaya çalışayım
         //!diypr ki haklı bend ezaten hadı buarda nasıl yazdırcan sayi/0 'o dedim ki banane diyor :))
     } 

@@ -18,5 +18,6 @@ public class Try_catch2
             c=a;
         }
         System.out.println(c);
+        in.close();
     }    
 }

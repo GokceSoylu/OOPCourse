@@ -54,7 +54,7 @@ public class Account
         {
             System.out.println("you enterde wrog paswodr lot of time. Pleaese try agin later");
         }
-        
+        in.close();
     }
     public int get_counter()
     {
