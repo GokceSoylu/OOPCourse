@@ -29,5 +29,6 @@ public class Try_catch3
             }
         }
         System.out.println(a/b);
+        in.close();
     }
 }
